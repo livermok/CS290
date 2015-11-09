@@ -1,0 +1,54 @@
+<!-- Author: Kyle Livermore -->
+<!-- Date 31 October 2015 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>API Assignment</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+<body id="APIassignment">
+<span>This portion asynchronously gets weather data</span>
+<form>
+    <fieldset>
+        <legend>Enter the zip code or city you want the weather for</legend>
+        <fieldset>
+        <label>City:
+            <input type="text" name="city" id="city" size="30" maxlength="100">
+        </label>
+        </fieldset>
+        <br />
+        <fieldset>    
+        <label>Zip code:
+            <input type="text" name="Zipcode" id="Zipcode" size="30" maxlength="100">
+        </label>
+        </fieldset>
+	<input type="submit" id="submit">
+   </fieldset>
+</form>
+<div id="weather"></div>
+<div id="temp"></div>
+<div id="rain"></div>
+<div id="wind"></div>
+
+</br>
+<span>This portion asynchronously posts data entered into the box then displays the data
+in the space below.</span>
+<form>
+<fieldset>
+        <legend>Please fill out</legend>
+        <fieldset>
+        <label>Name:
+            <input type="text" name="Name" id="Name" size="30" maxlength="100">
+        </label>
+        </fieldset>
+<input type="submit" id="submitForm">
+</fieldset>
+</form>
+<div id = "nameReturned">
+The name you entered was: 
+</div>
+
+  </body>
+  <script src="script.js"></script>
+</html>
